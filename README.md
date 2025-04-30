@@ -4,7 +4,7 @@ Sistem rekomendasi skincare ini dikembangkan melalui beberapa tahapan pengolahan
 
 ## 🔍 1. Scraping Data
 Langkah pertama adalah **scraping data** menggunakan Selenium.  
-- File scraping: [`selenium-scraping/scraping_skincare.ipynb`](selenium-scraping/scraping_skincare.ipynb)
+- File scraping: disimpan dalam folder: `selenium-scraping/`
 - Hasil scraping disimpan di folder: `dataset/`
 
 ## 📊 2. Statistika Deskriptif
@@ -18,7 +18,7 @@ File `statistika_deskriptif.ipynb` digunakan untuk:
 - Output: `hasil_preprocessing_benefit.csv`
 
 ## 🧪 4. Preprocessing Tahap 2: Ingredients
-- File: `preprocessing_lanjutan.ipynb`
+- File: `preprocessing_teks_lanjutan_skincare.ipynb`
 - Input: `hasil_preprocessing_benefit.csv`
 - Output akhir: `data_cleaned.xlsx`, yaitu dataset siap pakai untuk model rekomendasi
 
@@ -33,7 +33,7 @@ File `statistika_deskriptif.ipynb` digunakan untuk:
 ## 💻 7. Deploy Sistem dengan Gradio
 - File: `app.py`
 - Mengembangkan antarmuka sistem rekomendasi menggunakan Gradio
+- open terminal dan jalankan python app.py
 
 ---
 
-## 📁 Struktur Folder Utama (Ringkasan)
