@@ -9,7 +9,7 @@ Langkah pertama adalah **scraping data** menggunakan Selenium.
 
 ## 📊 2. Statistika Deskriptif
 File `statistika_deskriptif.ipynb` digunakan untuk:
-- Menyatukan seluruh file `.csv` hasil scraping
+- Menyatukan seluruh file `.csv` hasil scraping menjadi satu file yaitu `skincaret.csv
 - Melakukan analisis deskriptif awal terhadap data
 
 ## 🧼 3. Preprocessing Tahap 1: Kolom Benefit
